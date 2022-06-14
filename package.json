@@ -1,0 +1,13 @@
+{
+  "name": "test-react-app",
+  "homepage": "https://huntermcgrew.github.io/test-react-app-gh-pages",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  },
+  "scripts": {
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build",
+      "start": "react-scripts start",
+      "build": "react-scripts build"
+}
+}
